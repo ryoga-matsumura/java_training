@@ -5,13 +5,13 @@ import java.io.*;
  * 3.if文 実力確認問題3-1_case1
  */
 public class java3skillcheck3_1_case1 {
-/**
- * 試験の点数を入力し、対応する成績を表示する。試験は 100 点満点（ 0 点～ 100 点）とし、点数と成績の対応を以下のようにします。
- * 【ケース 1】
- * 60 点以上：「合格」
- * 60 点未満：「不合格」
- * @param args 整数
- */
+	/**
+	 * 試験の点数を入力し、対応する成績を表示する。試験は 100 点満点（ 0 点～ 100 点）とし、点数と成績の対応を以下のようにします。
+	 * 【ケース 1】
+	 * 60 点以上：「合格」
+	 * 60 点未満：「不合格」
+	 * @param args 整数
+	 */
 	public static void main(String[] args) throws IOException{
 		System.out.println("試験の点数（0~100）を入力してください。");
 		
