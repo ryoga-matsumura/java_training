@@ -21,10 +21,10 @@ public class java3skillcheck3_1_case1 {
 		String str = br.readLine();
 		int score = Integer.parseInt(str);
 		
-		if(score >= 0 && score < 60) {
+		if (score >= 0 && score < 60) {
 			System.out.println("不合格");
 		}
-		else if(score >= 60 && score <= 100) {
+		else if (score >= 60 && score <= 100) {
 			System.out.println("合格");
 		}
 		else {
