@@ -24,14 +24,11 @@ public class java3skillcheck3_1_case2 {
 		
 		if (score >= 80 && score <= 100) {
 			System.out.println("たいへんよくできました。");
-		}
-		else if (score >= 60 && score < 80) {
+		} else if (score >= 60 && score < 80) {
 			System.out.println("よくできました。");
-		}
-		else if (score >=0 && score < 60) {
+		} else if (score >=0 && score < 60) {
 			System.out.println("ざんねんでした。");
-		}
-		else {
+		} else {
 			System.out.println("点数は0~100点の範囲で入力してください。");
 		}
 	}

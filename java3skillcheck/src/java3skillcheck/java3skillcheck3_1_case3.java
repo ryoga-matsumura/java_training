@@ -25,17 +25,13 @@ public class java3skillcheck3_1_case3 {
 		
 		if (score >= 80 && score <= 100) {
 			System.out.println("優");
-		}
-		else if (score >= 70 && score < 80) {
+		} else if (score >= 70 && score < 80) {
 			System.out.println("良");
-		}
-		else if (score >= 60 && score < 70) {
+		} else if (score >= 60 && score < 70) {
 			System.out.println("可");
-		}
-		else if (score >= 0 && score < 60) {
+		} else if (score >= 0 && score < 60) {
 			System.out.println("不可");
-		}
-		else {
+		} else {
 			System.out.println("点数は0~100点の範囲で入力してください。");
 		}
 	}

@@ -23,11 +23,9 @@ public class java3skillcheck3_1_case1 {
 		
 		if (score >= 0 && score < 60) {
 			System.out.println("不合格");
-		}
-		else if (score >= 60 && score <= 100) {
+		} else if (score >= 60 && score <= 100) {
 			System.out.println("合格");
-		}
-		else {
+		} else {
 			System.out.println("点数は0~100点の範囲で入力してください。");
 		}
 	}
