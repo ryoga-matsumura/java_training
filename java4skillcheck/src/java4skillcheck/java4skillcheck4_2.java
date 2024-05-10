@@ -17,16 +17,16 @@ public class java4skillcheck4_2 {
 		
 		String list[][] = new String[3][3];
 		for (int i = 0; i < 3; i++) {
-				System.out.println("商品を入力してください。");
-				String product = br.readLine();
-				list[i][0] = product;
-				System.out.println("単価を入力してください。");
-				String price = br.readLine();
-				list[i][1] = price;
-				System.out.println("支払い金額を入力してください。");
-				String money = br.readLine();
-				list[i][2] = money;
-		}
+			System.out.println("商品を入力してください。");
+			String product = br.readLine();
+			list[i][0] = product;
+			System.out.println("単価を入力してください。");
+			String price = br.readLine();
+			list[i][1] = price;
+			System.out.println("支払い金額を入力してください。");
+			String money = br.readLine();
+			list[i][2] = money;
+			}
 		int price = 0;
 		int money = 0;
 		int shortage = 0;

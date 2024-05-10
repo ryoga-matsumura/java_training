@@ -18,13 +18,12 @@ public class java4skillcheck4_1 {
 	 */
 	public static void main(String[] args) {
 		String list[][] = {
-				{"中村","田島","小澤","大西"}, {"5000","3000","4500","6000"}, {"2000","","","3500"}
+			{"中村","田島","小澤","大西"}, {"5000","3000","4500","6000"}, {"2000","","","3500"}
 		};
+		int count = 0;
+		
 		for (int i = 0; i < list[0].length; i++) {
 			System.out.println("契約者名:" + list[0][i] + "、保険料:" + list[1][i] + "円");
-		}
-		int count = 0;
-		for (int i = 0; i < list[0].length; i++) {
 			if (list[2][i] != "") {
 				count++;
 			}
